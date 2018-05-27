@@ -8,6 +8,6 @@ RUN \
     texlive-fonts-recommended \
     texlive-fonts-extra \
     texlive-extra-utils \
+    texlive-latex-recommended \
   && mkdir /tmp/pdfs
 WORKDIR /tmp/pdfs
-RUN apt-get install -y --no-install-recommends texlive-latex-recommended
