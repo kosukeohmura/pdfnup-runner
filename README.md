@@ -1,2 +1,8 @@
 # pdfnup-runner
-A tool for merge multiple pdf pages to one.
+Some scripts for merge multiple pdf pages to one. It runs pdfnup on docker container.
+
+## Using the script
+```
+pdfnup-runner/run.sh <directory includes pdf>
+```
+It creates new pdf files on directory given.
