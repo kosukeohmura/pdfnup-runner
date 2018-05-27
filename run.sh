@@ -20,8 +20,8 @@ if [ -e $OUTPUT_DIR ]; then
   read answer
   answer=`echo $answer | tr y Y | tr -d '[\[\]]'`
   case $answer in
-      "" | Y* ) SHOULD_NUP=true;;
-      *  ) SHOULD_NUP=false;;
+    Y* ) SHOULD_NUP=true;;
+    *  ) SHOULD_NUP=false;;
   esac
 else
   SHOULD_NUP=true
